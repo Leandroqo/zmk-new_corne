@@ -88,10 +88,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK         &kp LPAR           &kp RPAR       &kp BSPC
-&trans     &kp F1    &kp F2  &kp F3    &kp F4    &kp F5               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE       &kp GRAVE
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans     &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp TILDE
-                             &trans    &trans    &kp SPACE                                                             &kp RET    &trans     &trans
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                                &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK         &kp LPAR           &kp RPAR       &kp BSPC
+&trans     &kp F1    &kp F2  &kp F3    &kp F4    &kp F5                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE       &kp GRAVE
+&kp LCTRL  &trans    &trans  &trans    &trans    &trans     &kp C_STOP                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp TILDE
+                             &trans    &trans    &kp SPACE                                                                 &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
