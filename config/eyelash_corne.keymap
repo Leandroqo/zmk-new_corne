@@ -85,10 +85,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp TILDE      &kp N1  &kp N2              &kp N3               &kp N4                  &kp N5                                         &trans             &kp N6    &kp N7    &kp N8             &kp N9     &kp N0  &kp BSPC
-&trans         &none   &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LG(LS(LEFT_BRACE))  &kp LG(LS(RIGHT_BRACE))                &trans  &mkp RCLK  &trans  &kp LEFT  &kp DOWN  &kp UP             &kp RIGHT  &trans  &kp RIGHT_SHIFT
-&kp LG(SPACE)  &trans  &trans              &kp LA(C)            &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)      &kp C_MUTE            &trans             &trans    &trans    &trans             &trans     &trans  &kp RC(RA(SPACE))
-                                           &trans               &trans                  &trans                                                            &trans    &trans    &kp RIGHT_COMMAND
+&kp TILDE      &kp N1  &kp N2              &kp N3               &kp N4                  &kp N5                                         &trans             &kp N6          &kp N7          &kp N8             &kp N9           &kp N0  &kp BSPC
+&trans         &none   &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LG(LS(LEFT_BRACE))  &kp LG(LS(RIGHT_BRACE))                &trans  &mkp RCLK  &trans  &kp LEFT        &kp DOWN        &kp UP             &kp RIGHT        &trans  &kp RIGHT_SHIFT
+&kp LG(SPACE)  &trans  &trans              &kp LA(C)            &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)      &kp C_MUTE            &trans             &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP       &msc SCRL_RIGHT  &trans  &kp RC(RA(SPACE))
+                                           &trans               &trans                  &trans                                                            &trans          &trans          &kp RIGHT_COMMAND
             >;
 
             sensor-bindings = <&scroll_encoder>;
