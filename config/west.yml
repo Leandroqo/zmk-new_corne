@@ -6,11 +6,11 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: leandroqo
-      url-base: https://github.com/Leandroqo
+    - name: gpeye
+      url-base: https://github.com/gpeye
   projects:
-    - name: nice-view-mod
-      remote: leandroqo
+    - name: urchin-peripheral-animation
+      remote: gpeye
       revision: main
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
